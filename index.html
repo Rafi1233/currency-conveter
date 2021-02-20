@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currency Converter</title>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="converter()">
+    <h1>Currency Converter</h1>
+
+    <marquee behavior="scroll" direction="right">Welcome to online Currency Converter</marquee>
+    <br><br><br><br>
+    <center>
+       <table>
+        <tr>
+            <td>
+                <label for="pound"> Bangladesh taka (BDT) : </label>
+            </td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <td>
+                <input type="text" id="pound" size="10" value="0.00" onchange="bdttaka()" />
+            </td>
+        </tr>
+           
+        
+        <tr>
+            <td>
+                 <label for="dollerU">United State (USD) : </label>
+                
+            </td>&nbsp
+            <td>
+                 <input type="text" id="dollerU" size="10" value="0.00" onchange="dollerCon()" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                 <label for="EURO">Europe (Euro) : </label>
+            </td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+            <td>
+                 <input type="text" id="EURO" size="10" value="0.00" onchange="euroCon()" />
+            </td>
+        </tr>
+       
+        <tr>
+            <td>
+                <label for="dollerC">India (Rupee) : </label>
+            </td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <td>
+                 <input type="text" id="dollerC" size="10" value="0.00" onchange="indrupp()" />
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <label for="dollerA">Pakistan (Rupee) : </label>
+            </td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <td>
+                 <input type="text" id="dollerA" size="10" value="0.00" onchange="pakrupp()" />
+            </td>
+        </tr> 
+       
+        
+        
+       </table> 
+       <h3>Thank You For Using This Converter</h3>
+       
+    </center>
+</body>
+
+</html>
